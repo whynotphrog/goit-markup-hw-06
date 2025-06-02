@@ -969,7 +969,7 @@ margin-left: 16px;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
-        width: 552px;
+        max-width: 552px;
     }
 
 .footer-logo-text {
@@ -1011,6 +1011,7 @@ margin-left: 16px;
 .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
+    min-width: 1058px;
 }
 
 .footer-logo-text {

@@ -8,6 +8,11 @@
     modal: document.querySelector("[data-modal]"),
   };
 
+      // При загрузці сторінки переконуємося, що модалка закрита
+    document.addEventListener("DOMContentLoaded", () => {
+    refs.modal.classList.remove("is-open");
+  });
+
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
 
