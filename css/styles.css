@@ -17,6 +17,8 @@
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #434455;
+       scroll-behavior: smooth;
+       scroll-margin-top: 15px;
    }
 
    /*reset*/
